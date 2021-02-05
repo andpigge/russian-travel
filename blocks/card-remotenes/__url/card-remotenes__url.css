@@ -1,0 +1,25 @@
+.card-remotenes__url {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .card-remotenes__url {
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-remotenes__url {
+    margin: 0 16px;
+  }
+}

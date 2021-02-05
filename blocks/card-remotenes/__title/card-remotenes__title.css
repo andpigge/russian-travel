@@ -1,0 +1,25 @@
+.card-remotenes__title {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .card-remotenes__title {
+    font-size: 42px;
+    line-height: 46px;
+    /* Чтоб стало как в макете, уменьшил максимальную ширину */
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-remotenes__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+}
